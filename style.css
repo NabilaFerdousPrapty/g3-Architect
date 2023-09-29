@@ -266,12 +266,31 @@ padding: 24px 0px;
 .sponscer{
     padding: 5px;
 }
-.sponscer-images{
+/* .sponscer-images{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+} */
+.sponscer-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-bottom: 100px;
+    position: relative;
+    gap: 30px;
+    
+
 }
+.sponscer-images img{
+    
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    
+}
+
+
+
 
 .our-sponscer h2{
     
@@ -394,6 +413,7 @@ margin-bottom: 10px;
         flex-direction: column;
         gap: 30px;
     }
+    
     footer p{
         text-align: center;
         color: #424242;
